@@ -1,10 +1,8 @@
 ## Tech Challenge - Desafio Técnico (Detecção de Fraude Financeira)
-<hr>
 <br>
 <br>
 
 ### Objetivo do Projeto: desenvolver uma solução em Machine Learning para predizer se uma transação financeira é ou não é Fraudulenta
-<hr>
 <br>
 <br>
 
@@ -36,30 +34,25 @@ Com base nessas definições, podemos calcular as seguintes métricas:
     - Sensibilidade: proporção de transações legítimas que foram corretamente identificadas pelo modelo. A sensibilidade é dada por VN / (VN + FP). Quanto maior a sensibilidade, maior será a quantidade de transações legítimas não bloqueadas, gerando mais lucro.
 
 Essas métricas podem ser usadas para avaliar a eficácia do modelo de detecção de fraudes em termos de lucro e perda. No entanto, é importante lembrar que outros fatores, como o custo de bloquear uma transação legítima ou a gravidade das consequências de uma fraude não detectada, também devem ser considerados na tomada de decisões de negócios.
-<hr>
 <br>
 <br>
 
 ## Desenvolvimento
 O projeto foi desenvolvido utilizando um conjunto de dados disponibilizado pelo Mercado Livre, proveniente do sistema de prevenção de fraudes.
-<hr>
 
 O repositório está organizado da seguinte forma:
 - [Datasets](Datasets/): diretório com o dataset disponibilizado e o dataset gerado pelos experimentos
 - [Documentos](Documentos/): documentos gerados durante os experimentos
 - [Notebook](Notebook/): contém o notebook utilizado para criar o pipeline do experimento
-<hr>
 
 Para o desenvolvimento do projeto, foram criadas funções reutilizáveis para auxílio nas análises, previsões, métricas e comparações.
 
 Todo o restante desenvolvimento e das análises está descrito no [Notebook](Notebook/MeLi-Technical_Challenge.ipynb).
-<hr>
 <br>
 <br>
 
 ## Execução
 Antes de executar o notebook, certifique-se de ter feito uma cópia do repositório, bem como a instalação dos pacotes descritos em [requirements.txt](requirements.txt). Feito isso, basta reexecutar o notebook para que os resultados sejam gerados conforme os experimentos feitos, que levaram as avaliações e conclusão.
-<hr>
 <br>
 <br>
 
